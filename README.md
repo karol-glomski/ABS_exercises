@@ -38,7 +38,7 @@ jaka jest różnica między wynikiem **8.** a **9.**? - różnica jest subtelna,
 czyli **8.** jest rozumiane jako wyraz (string) a **9.** jako liczba
 
 10. `'abc' + str(3)` - teraz już dodajemy wyraz do wyrazu 
-
+11. `'abc' + '3'` - tak też można, bo cyfra `3` jest w cudzysłowie
 ### liczby z przecinkiem (`float`)
 1. `10/2`
 2. `2+3`
@@ -61,14 +61,14 @@ podsumujmy jakie rodzaje danych rozróżnia Python:
 6. `age` - dalej `int`
 7. `age = str(age)` - konwertujemy zmienną `age` do `str`
 8. `age` - teraz już w zmiennej `age` jest str
-9. `number_1 = 10`
-10. `number_2 = 20`
-11. `sum_of_numbers = number_1 + number_2`
-12. `sum_of_numbers`
-13. `average_of_numbers = sum_of_numbers/2`
-14. `average_of_numbers`
-15. `'average_of_numbers'` - proszę zwrócić uwagę na cudzysłów!
-16. `average_of_number` - ERROR - proszę zwrócić uwagę na literówkę - brak litery 's' na końcu
+10. `number_1 = 10`
+11. `number_2 = 20`
+12. `sum_of_numbers = number_1 + number_2`
+13. `sum_of_numbers`
+14. `average_of_numbers = sum_of_numbers/2`
+15. `average_of_numbers`
+16. `'average_of_numbers'` - proszę zwrócić uwagę na cudzysłów!
+17. `average_of_number` - ERROR - proszę zwrócić uwagę na literówkę - brak litery 's' na końcu
 
 dobra, co tu się dzieje? w **14.** mówimy Pythonowi "pokaż co jest w zmiennej `average_of_numbers`, dlatego zwraca nam liczbę
 w **15.** mówimy Pythonowi "zwróć mi wyraz 'average_of_numbers'", ponieważ `average_of_numbers` jest objęte w cudzysłów!
@@ -114,6 +114,13 @@ print(f"Witaj {name}")
 powinno wyświetlić się znowu okno "Run", teraz trzeba tam kliknąć myszką i wpisać swoje imię
 ![image](https://user-images.githubusercontent.com/20053756/213017660-5a489df2-ffa9-41b6-a261-b17ef65ff63e.png)
 ![image](https://user-images.githubusercontent.com/20053756/213017859-c31a12bb-9e05-48f9-be6a-a219480c9235.png)
+
+teraz dodajmy ten fragment, uruchamiamy program, wpisujemy swoje imię:
+```python
+name_length = len(name)
+print(f'Liczba liter w Twoim imieniu to {name_length}')
+```
+![image](https://user-images.githubusercontent.com/20053756/213018970-47926f17-967a-4044-ad65-30c79bec07d4.png)
 
 
 ### 4. na koniec usuwamy stworzony projekt w PyCharmie (usuwamy folder)
