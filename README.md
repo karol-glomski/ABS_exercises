@@ -106,6 +106,9 @@ print('Hello, world!')
 ```
 teraz automatycznie powinno otworzyć się okno "Run" z tekstem "Hello, world!": ![image](https://user-images.githubusercontent.com/20053756/213014709-12bc2317-2d60-48f3-a940-a1fbb6325afa.png)
 
+#### tutaj używamy wbudowanej funkcji `print()`, która wyświetla nam to co do niej włożymy w okienku "Run"; w tym wypadku włożyliśmy do niej string `'Hello, world!'`
+
+
 teraz dodajmy ten fragment i wciśnijmy zielony strzałkę 
 ```python
 name = input()
