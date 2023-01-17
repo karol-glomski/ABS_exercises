@@ -89,14 +89,31 @@ jak widać, na początku `average_of_numbers` to był `float` (liczba z przecink
 5. `_age = 41` - można zacząć od znaku `_`
 6. `name_1 = 'James'` - może zawierać cyfry
 7. `1name = 'James'` - ERROR - ale nie na pierwszy miejscu
-8. `name-of-person = 'James'` - nie może zawierać myślinika `-`
+8. `name-of-person = 'James'` - ERROR - nie może zawierać myślinika `-`
 9. `name_of_person = 'James'` - ale może zawierać `_`
-10. 
 
 
 
-TODO:
-7. `f'twój wiek: {age}'` - proszę zwrócić uwagę na `f` przed cudzysłowem - Python sam ogarnie żeby przekonwertować `int` na 
+## Pierwszy program
+#### Na razie zostawiamy konsolę Pythona i będziemy pisać w pliku.
+![image](https://user-images.githubusercontent.com/20053756/213012720-b409902a-a17e-4401-bb90-aca44579a8b7.png)
+
+#### skopiuj i wklej ten kod do PyCharma, potem wciśnij Shift+F10 (albo kliknij na zieloną strzałkę): ![image](https://user-images.githubusercontent.com/20053756/213014317-d1b11d0f-53d3-47c9-b313-c73a245f9b7a.png)
+
+
+```python
+print('Hello, world!')
+```
+teraz automatycznie powinno otworzyć się okno "Run" z tekstem "Hello, world!": ![image](https://user-images.githubusercontent.com/20053756/213014709-12bc2317-2d60-48f3-a940-a1fbb6325afa.png)
+
+teraz dodajmy ten fragment i wciśnijmy zielony strzałkę 
+```python
+name = input()
+print(f"Witaj {name}")
+```
+powinno wyświetlić się znowu okno "Run", teraz trzeba tam kliknąć myszką i wpisać swoje imię
+![image](https://user-images.githubusercontent.com/20053756/213017660-5a489df2-ffa9-41b6-a261-b17ef65ff63e.png)
+![image](https://user-images.githubusercontent.com/20053756/213017859-c31a12bb-9e05-48f9-be6a-a219480c9235.png)
 
 
 ### 4. na koniec usuwamy stworzony projekt w PyCharmie (usuwamy folder)
