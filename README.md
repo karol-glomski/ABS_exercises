@@ -67,8 +67,31 @@ podsumujmy jakie rodzaje danych rozróżnia Python:
 12. `sum_of_numbers`
 13. `average_of_numbers = sum_of_numbers/2`
 14. `average_of_numbers`
-15. `'average_of_numbers'`
+15. `'average_of_numbers'` - proszę zwrócić uwagę na cudzysłów!
+16. `average_of_number` - ERROR - proszę zwrócić uwagę na literówkę - brak litery 's' na końcu
 
+dobra, co tu się dzieje? w **14.** mówimy Pythonowi "pokaż co jest w zmiennej `average_of_numbers`, dlatego zwraca nam liczbę
+w **15.** mówimy Pythonowi "zwróć mi wyraz 'average_of_numbers'", ponieważ `average_of_numbers` jest objęte w cudzysłów!
+a **16.** Python rozumie jako "pokaż co się znajduje w zmiennej `average_of_number`, tylko że zrobiliśmy literówkę, więc taka zmienna nie istenieje! dlatego błąd jaki wyświetli Python brzmi **NameError: name 'average_of_number' is not defined**
+
+17. `average_of_numbers = 100`
+18. `average_of_numbers`
+19. `average_of_numbers = 'jakis wyraz'`
+20. `average_of_numbers`
+
+jak widać, na początku `average_of_numbers` to był `float` (liczba z przecinkiem), a w **17.** powiedzieliśmy Pythonowi "włóż do zmiennej `average_of_numbers` liczbę `100` (która jest typu `int`), potem włożyliśmy do niej wyraz `'jakis wyraz'`
+
+### nazewnictwo zmiennych
+1. `name = 'James'`
+2. `naMe = 'Arthur'`
+3. `name`
+4. `naMe` - czyli wielkość liter robi różnicę
+5. `_age = 41` - można zacząć od znaku `_`
+6. `name_1 = 'James'` - może zawierać cyfry
+7. `1name = 'James'` - ERROR - ale nie na pierwszy miejscu
+8. `name-of-person = 'James'` - nie może zawierać myślinika `-`
+9. `name_of_person = 'James'` - ale może zawierać `_`
+10. 
 
 
 
