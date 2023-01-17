@@ -1,12 +1,12 @@
 ### 0. PyCharm i Python są ściągnięte i zainstalowane.
 
 
-### 1. Tworzymy nowy projekt
+### 1. Tworzymy nowy projekt (File/New Project w pasku na górze).
 
 ### 2. Uruchamiamy konsolę Pythona:
 ![python_console1](https://user-images.githubusercontent.com/20053756/212992486-5a4abfa8-0ebf-4ac6-9bbc-64c08980a8d8.png)
 albo na pasku Tools/Python or  Debug Console
-### 3. ćwiczenia (wszystko co jest zaznaczone w ten sposób: `3 + 3` w konsolę Pythona (bez komentarzy)):
+### 3. ćwiczenia (wszystko co jest zaznaczone w ten sposób: `3 + 3` wpisujemy w konsolę Pythona (bez komentarzy)):
 #### 'matematyka i takie tam'
 
 1. `2 + 2`
@@ -23,13 +23,13 @@ albo na pasku Tools/Python or  Debug Console
 12. `11//3` (dwa znaki dzielenia), zwróci 3 (czyli dwa znaki dzielenia zostawiają tylko część całkowitą wyniku)
 13. `21%5` - zwraca tylko resztę z dzielenia
 14. `100%5`
-### wyrazy (znane jako stringi (od angielskiego string of characters, czyli łańuch znaków)):
+### wyrazy (inaczej "stringi" (od angielskiego `string of characters`, czyli łańuch znaków)):
 1. `'abc'`
 2. `'łódź'` - rozumie polskie znaki
 3. `'😀'` - rozumie emotikonki
 4. `'abc' + '.txt'` - potrafi dodawać wyrazy
 5. `'Cześć' + 'Python'` - trzeba uważać na spacje
-6. `'abc '*10` - potrafi 'mnożyć' wyrazy (bonus: twórcy Pythona uznali, że skoro mnożenie np. `3 * 3 = 3 + 3 + 3`, to `'abc' * 3 = 'abc' + 'abc' + 'abc'`, stąd można 'mnożyć' wyrazy)
+6. `'abc '*10` - potrafi 'mnożyć' wyrazy (twórcy Pythona uznali, że skoro mnożenie liczb, np. `3 * 3 = 3 + 3 + 3`, to `'abc' * 3 = 'abc' + 'abc' + 'abc'`, stąd można 'mnożyć' wyrazy)
 7. `'abc' + 3` - ERROR **TypeError: can only concatenate str (not "int") to str** (po prostu twórcy Pythona uznali, że w przeciwieństwie do mnożenia, dodawanie wyrazów do liczb nie ma sensu)
 8. `str(3)` 
 9. `3`
@@ -104,21 +104,23 @@ jak widać, na początku `average_of_numbers` to był `float` (liczba z przecink
 ```python
 print('Hello, world!')
 ```
-teraz automatycznie powinno otworzyć się okno "Run" z tekstem "Hello, world!": ![image](https://user-images.githubusercontent.com/20053756/213014709-12bc2317-2d60-48f3-a940-a1fbb6325afa.png)
+#### teraz automatycznie powinno otworzyć się okno "Run" z tekstem "Hello, world!": ![image](https://user-images.githubusercontent.com/20053756/213014709-12bc2317-2d60-48f3-a940-a1fbb6325afa.png)
 
 #### tutaj używamy wbudowanej funkcji `print()`, która wyświetla nam to co do niej włożymy w okienku "Run"; w tym wypadku włożyliśmy do niej string `'Hello, world!'`
 
 
-teraz dodajmy ten fragment i wciśnijmy zielony strzałkę 
+#### dodajmy ten fragment i wciśnijmy zielony strzałkę 
 ```python
 name = input()
 print(f"Witaj {name}")
 ```
-powinno wyświetlić się znowu okno "Run", teraz trzeba tam kliknąć myszką i wpisać swoje imię
+#### powinno wyświetlić się znowu okno "Run", teraz trzeba tam kliknąć myszką i wpisać swoje imię i wcisnąć Enter
 ![image](https://user-images.githubusercontent.com/20053756/213017660-5a489df2-ffa9-41b6-a261-b17ef65ff63e.png)
 ![image](https://user-images.githubusercontent.com/20053756/213017859-c31a12bb-9e05-48f9-be6a-a219480c9235.png)
 
-teraz dodajmy ten fragment, uruchamiamy program, wpisujemy swoje imię:
+#### tutaj używamy wbudowanej funkcji `input()`, która służy do tego, że można w okienku "Run" wpisać jakąś wartość i potem tej wartości użyć w programie jak to zrobiliśmy wyżej; czyli Python zatrzyma się na tym fragmencie `name = input()` dopóki nie wpiszemy czegoś w okienko "Run" i wciśniemy Enter, dopiero po tym wykona kolejne części kodu
+
+#### teraz dodajmy ten fragment, uruchamiamy program, wpisujemy swoje imię:
 ```python
 name_length = len(name)
 print(f'Liczba liter w Twoim imieniu to {name_length}')
