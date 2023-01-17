@@ -39,7 +39,7 @@ czyli **8.** jest rozumiane jako wyraz (string) a **9.** jako liczba
 
 10. `'abc' + str(3)` - teraz już dodajemy wyraz do wyrazu 
 
-### liczby niecałkowite vs całkowite
+### liczby z przecinkiem (`float`)
 1. `10/2`
 2. `2+3`
 
@@ -52,7 +52,28 @@ podsumujmy jakie rodzaje danych rozróżnia Python:
 - `float` - liczby z przecinkiem (dziwna nazwa, powód jak wyżej było wspomniane nie jest trywialny i kiedyś do tego wrócimy)
 - `str` - wyrazy (ang. string, w pythonie )
 
+### zmienne
+1. `name = 'James'`
+2. `age = 35`
+3. `'Cześć' + name`
+4. `'twój wiek: ' + age` - ERROR
+5. `'twój wiek: ' + str(age)` - konwertujemy liczbę (`int`) na wyraz (`str`)
+6. `age` - dalej `int`
+7. `age = str(age)` - konwertujemy zmienną `age` do `str`
+8. `age` - teraz już w zmiennej `age` jest str
+9. `number_1 = 10`
+10. `number_2 = 20`
+11. `sum_of_numbers = number_1 + number_2`
+12. `sum_of_numbers`
+13. `average_of_numbers = sum_of_numbers/2`
+14. `average_of_numbers`
+15. `'average_of_numbers'`
 
+
+
+
+TODO:
+7. `f'twój wiek: {age}'` - proszę zwrócić uwagę na `f` przed cudzysłowem - Python sam ogarnie żeby przekonwertować `int` na 
 
 
 ### 4. na koniec usuwamy stworzony projekt w PyCharmie (usuwamy folder)
