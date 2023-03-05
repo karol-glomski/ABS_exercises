@@ -152,8 +152,7 @@ print(fahrenheit_to_celcius(fahrenheit))
 ```
 uruchamiamy - dostajemy `32.2222...`.
 ### Etap 4. Celsjusz -> kelvin.
-#### 4.1 Dodajemy drugą funkcję (celsjusz -> kelvin). Tutaj już wiemy, że będzie potrzebować `def`, nazwy funkcji, oraz że
-powinna przyjmować argument, więc zrobimy to w jednym kroku:
+#### 4.1 Dodajemy drugą funkcję (celsjusz -> kelvin). Tutaj już wiemy, że będzie potrzebować `def`, nazwy funkcji, oraz że powinna przyjmować argument, więc zrobimy to w jednym kroku:
 ```python
 def fahrenheit_to_celcius(temp_fahrenheit):
     celcius = (temp_fahrenheit - 32)*5/9
