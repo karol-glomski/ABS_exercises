@@ -6,7 +6,7 @@
 Ćwiczenie jest rozbite na etapy, każdy etap składa się z małych kroków.
 
 Wykonuj ćwiczenie w ten sposób: czytaj instrukcję i jednocześnie wykonuj kolejne kroki w PyCharmie.
-Jak dojdziesz do końca etapu, to usuń cały kod z PyCharma i spróbuj zrobić cały etap z pamięci.
+Jak dojdziesz do końca etapu, to usuń cały kod z tego etapu i spróbuj zrobić ten sam etap z pamięci.
 Jak jakiegoś kroku nie będziesz pamiętać to śmiało zaglądaj do instrukcji.
 
 Kolejny etap zacznij dopiero jak będziesz w stanie zrobić cały poprzedni z pamięci.
