@@ -19,7 +19,7 @@ Każdego dnia zaczynaj od 1 etapu (usuń kod z poprzedniego dnia).
 Za każdym razem ćwiczenie powinno zajmować coraz mniej czasu i pod koniec myślę że bedzie zajmować 5-10 minut.
 
 
-Etapy:
+### Etap 1.: Konwersja z fahrenheita do celsjusza.
 #### 1.1. Najpierw tworzymy zwykłą zmienną która będzie trzymała temperaturę w skali Fahrenheita:
 ```python
 fahrenheit = 90
@@ -42,7 +42,7 @@ uruchamiamy program - powinno się wyświetlić `32.(2)`
 Ok, mamy działający program, teraz zmienimy ten fragment, żeby był w funkcji.
 
 
-Etap 2: Dodajemy funkcję
+### Etap 2: Dodajemy funkcję
 #### 2.1 Najpierw piszemy `def` - od słowa `define`, czyli zaczynamy definicję naszej funkcji:
 ```python
 fahrenheit = 90
@@ -127,7 +127,7 @@ print(fahrenheit_to_celcius(fahrenheit))
 ```
 uruchamiamy program, dostajemy `32.22222222...`.
 
-Etap 3. Input od użytkownika.
+### Etap 3. Input od użytkownika.
 #### 3.1. Mamy wpisaną jedną wartość do przekonwertowania: `90`, zmienimy to żeby dostać wartość od użytkownika:
 ```python
 def fahrenheit_to_celcius(temp_fahrenheit):
@@ -151,7 +151,7 @@ fahrenheit = int(input("Please enter temperature in Fahrenheit scale: "))
 print(fahrenheit_to_celcius(fahrenheit))
 ```
 uruchamiamy - dostajemy `32.2222...`.
-
+### Etap 4. Celsjusz -> kelvin.
 #### 4.1 Dodajemy drugą funkcję (celsjusz -> kelvin). Tutaj już wiemy, że będzie potrzebować `def`, nazwy funkcji, oraz że
 powinna przyjmować argument, więc zrobimy to w jednym kroku:
 ```python
