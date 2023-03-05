@@ -2,20 +2,21 @@
 - pierwsza funkcja ze skali Farenheita do Celsjusza
 - druga funkcja ze skali Celsjusza do Kelvina.
 
-### 2. Ćwiczenie jest rozbite na etapy, każdy etap składa się z małych kroków.
-Wykonuj ćwiczenie w ten sposób: najpierw naucz się na pamięć małych kroków z pierwszego etapu,
-potem spróbuj zrobić pierwszy etap z pamięci. Jak jakiegoś kroku nie będziesz pamiętać to śmiało zobacz
-w instrukcję.
+### 2. Jak wykonywać ćwiczenie.
+Ćwiczenie jest rozbite na etapy, każdy etap składa się z małych kroków.
 
-Jak zapamiętasz pierwszy etap (bez patrzenia do instrukcji), to dopiero wtedy zacznij wykonywać drugi etap.
+Wykonuj ćwiczenie w ten sposób: czytaj instrukcję i jednocześnie wykonuj kolejne kroki w PyCharmie.
+Jak dojdziesz do końca etapu, to usuń cały kod z PyCharma i spróbuj zrobić cały etap z pamięci.
+Jak jakiegoś kroku nie będziesz pamiętać to śmiało zaglądaj do instrukcji.
 
-Ćwiczenie powinno się wykonywać 20-30 minut, niezależnie ile kroków/etapów uda się wykonać.
+Kolejny etap zacznij dopiero jak będziesz w stanie zrobić cały poprzedni z pamięci.
 
-Każdy etap zacznij dopiero jak zapamiętasz poprzedni etap.
+Ćwiczenie powinno się wykonywać kilka dni z rzędu, maksymalnie 20-30 minut, niezależnie ile kroków/etapów 
+uda się wykonać/zapamiętać. (20-30 minut, żeby sie nie przemęczyć i chcieć usiąść do niego następnego dnia).
 
-Za każdym razem zaczynaj ćwiczenie od początku (czyli jak w poniedziałek nauczysz się pierwszego etapu i kilku kroków z
-drugiego etapu, to we wtorek i tak zaczynasz od 1 etapu - z czasem będziesz robić je coraz szybciej i w te 30 minut się
-wyrobisz z całym ćwiczeniem).
+Każdego dnia zaczynaj od 1 etapu (usuń kod z poprzedniego dnia).
+
+Za każdym razem ćwiczenie powinno zajmować coraz mniej czasu i pod koniec myślę że bedzie zajmować 5-10 minut.
 
 
 Etapy:
